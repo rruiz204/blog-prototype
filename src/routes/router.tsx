@@ -4,6 +4,7 @@ import { NotFound } from "@pages/NotFound";
 import { Articles } from "@pages/Articles";
 import { Categories } from "@pages/Caterogies";
 import { BrowserRouter, Routes, Route } from "react-router";
+import { LanguageVices } from "@articles/LanguageVices";
 
 export const Router = (): JSX.Element => {
   return (
@@ -12,6 +13,8 @@ export const Router = (): JSX.Element => {
         <Route path="/" element={<Home/>} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/categories" element={<Categories />} />
+
+        <Route path="/articles/language-vices" element={<LanguageVices />} />
         
         <Route path="*" element={<NotFound />} />
       </Routes>
