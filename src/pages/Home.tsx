@@ -30,6 +30,10 @@ export const Home = (): JSX.Element => {
           <AuthorList />
         </div>
       </div>
+
+      <div className="bg-black text-white py-24">
+        <p className="font-inter-semi text-center text-5xl">Thanks for visiting</p>
+      </div>
     </div>
   );
 };
