@@ -1,7 +1,7 @@
 import { JSX } from "react";
 import { LanguageVicesData } from "./data/ArticleData";
 import { ArticleLayout } from "@components/layouts/ArticleLayout";
-import { LnaguageViceItem } from "@components/common/organisms/LanguageViceItem";
+import { LanguageViceItem } from "@components/common/organisms/LanguageViceItem";
 
 export const LanguageVices = (): JSX.Element => {
   return (
@@ -18,23 +18,31 @@ export const LanguageVices = (): JSX.Element => {
         </p>
 
         <div className="mt-6 flex flex-col gap-6">
-          <LnaguageViceItem
+          <LanguageViceItem
             name="Dequeísmo"
             description='El dequeísmo es un vicio de lenguaje que consiste en agregar la preposición
             "de" antes de la conjunción "que" cuando no es necesario. Es decir, ocurre cuando se
             dice "de que" en situaciones en las que solo debería usarse "que".'/>
 
-          <LnaguageViceItem
+          <LanguageViceItem
             name="Anfibología"
             description='La anfibología es una ambigüedad en la construcción de una oración,
             lo que puede dar lugar a múltiples interpretaciones. Ocurre cuando una frase no es
             clara y puede entenderse de más de una manera.'/>
 
-          {/* <LnaguageViceItem
+          <LanguageViceItem
             name="Anacolutos"
-            description='La anfibología es una ambigüedad en la construcción de una oración,
-            lo que puede dar lugar a múltiples interpretaciones. Ocurre cuando una frase no es
-            clara y puede entenderse de más de una manera.'/> */}
+            description='El anacoluto es un vicio de lenguaje que ocurre cuando una oración
+            comienza con una estructura gramatical, pero luego cambia de forma abrupta, rompiendo
+            la concordancia y dejando una parte de la oración sin función clara.'/>
+
+          <LanguageViceItem
+            name="Coloquialismos y Vulgarismos"
+            description='Los coloquialismos son palabras o expresiones informales que se usan en el
+            habla cotidiana, pero que no son adecuadas para contextos formales. No son errores gramaticales,
+            pero pueden ser demasiado informales en ciertos textos.
+            Los vulgarismos Son errores lingüísticos o palabras de mal gusto, generalmente usados en contextos
+            informales o con poca educación. Pueden ser fallas gramaticales o palabras ofensivas.'/>
         </div>
       </div>
     </ArticleLayout>

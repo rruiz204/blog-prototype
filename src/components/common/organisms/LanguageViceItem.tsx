@@ -4,7 +4,7 @@ interface Props {
   description: string;
 }
 
-export const LnaguageViceItem = ({ name, description }: Props) => {
+export const LanguageViceItem = ({ name, description }: Props) => {
   return (
     <div>
       <div>
