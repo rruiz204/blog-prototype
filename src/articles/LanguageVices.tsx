@@ -46,24 +46,37 @@ export const LanguageVices = (): JSX.Element => {
 
           <LanguageViceItem
             name="Extranjerismos"
-            description='Son palabras o expresiones tomadas de otro idioma que se usan en una lengua sin traducirlas o adaptarlas correctamente.'/>
+            description='Son palabras o expresiones tomadas de otro idioma que se usan en una lengua sin traducirlas o adaptarlas correctamente.' />
 
           <LanguageViceItem
             name="Homonimia y Paronimia"
             description='La homonimia ocurre cuando dos palabras tienen la misma escritura (homógrafas)
             o la misma pronunciación (homófonas), pero significados diferentes. La paronimia ocurre cuando
             dos palabras tienen una escritura o pronunciación similar, pero no significan lo mismo.'/>
-          
+
           <LanguageViceItem
             name="Cocofonía"
             description='La cacofonía es un vicio de lenguaje que ocurre cuando en una oración se repiten
             sonidos o sílabas de forma desagradable o poco armoniosa, haciendo que la frase suene mal o confusa.'/>
-          
+
           <LanguageViceItem
             name="Barbarismos"
             description='El barbarismo es un error en el uso del idioma que ocurre cuando se pronuncia,
             escribe o usa mal una palabra. Puede deberse a faltas ortográficas, errores en la pronunciación
             o el uso incorrecto de extranjerismos.'/>
+
+          <LanguageViceItem
+            name="Metaplasmos"
+            description='Un metaplasmo es una alteración en la forma de una palabra debido a cambios en su
+            escritura, pronunciación o estructura. Puede ocurrir por razones estilísticas, por evolución del
+            idioma o por errores.'/>
+          
+          <LanguageViceItem
+            name="Muletillas"
+            description='Las muletillas son palabras o expresiones que se usan de manera repetitiva, muchas
+            veces sin un propósito concreto, y que no aportan un valor real a la comunicación. Se utilizan
+            como pausas o para dar tiempo mientras se piensa qué decir a continuación. A menudo se emplean de
+            forma automática, sin que la persona sea consciente de ello.'/>
         </div>
       </div>
     </ArticleLayout>
