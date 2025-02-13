@@ -1,9 +1,11 @@
-import { JSX } from "react";
+import { JSX, useEffect } from "react";
 import { LanguageVicesData } from "./data/ArticleData";
 import { ArticleLayout } from "@components/layouts/ArticleLayout";
 import { LanguageViceItem } from "@components/common/organisms/LanguageViceItem";
 
 export const LanguageVices = (): JSX.Element => {
+  useEffect(() => window.scrollTo(0, 0), []);
+
   return (
     <ArticleLayout
       title={LanguageVicesData.name}
@@ -70,13 +72,27 @@ export const LanguageVices = (): JSX.Element => {
             description='Un metaplasmo es una alteración en la forma de una palabra debido a cambios en su
             escritura, pronunciación o estructura. Puede ocurrir por razones estilísticas, por evolución del
             idioma o por errores.'/>
-          
+
           <LanguageViceItem
             name="Muletillas"
             description='Las muletillas son palabras o expresiones que se usan de manera repetitiva, muchas
             veces sin un propósito concreto, y que no aportan un valor real a la comunicación. Se utilizan
             como pausas o para dar tiempo mientras se piensa qué decir a continuación. A menudo se emplean de
             forma automática, sin que la persona sea consciente de ello.'/>
+
+          <LanguageViceItem
+            name="Neologismos"
+            description='Un neologismo es una palabra, expresión o giro lingüístico nuevo que se introduce
+            en un idioma. Estos surgen por la necesidad de nombrar cosas, conceptos o fenómenos que antes
+            no existían o que no tenían una palabra específica. Los neologismos son una parte natural de
+            la evolución del lenguaje.'/>
+
+          <LanguageViceItem
+            name="Pleonasmo o Redundancia"
+            description='El pleonasmo o redundancia es un vicio de lenguaje que consiste en usar palabras
+            innecesarias que repiten o explican de manera innecesaria un concepto que ya está implícito
+            en la frase. Aunque en algunos casos puede usarse de forma estilística, en general es
+            considerado un error porque añade palabras que no aportan nuevo significado.'/>
         </div>
       </div>
     </ArticleLayout>
