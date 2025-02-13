@@ -43,6 +43,16 @@ export const LanguageVices = (): JSX.Element => {
             pero pueden ser demasiado informales en ciertos textos.
             Los vulgarismos Son errores lingüísticos o palabras de mal gusto, generalmente usados en contextos
             informales o con poca educación. Pueden ser fallas gramaticales o palabras ofensivas.'/>
+
+          <LanguageViceItem
+            name="Extranjerismos"
+            description='Son palabras o expresiones tomadas de otro idioma que se usan en una lengua sin traducirlas o adaptarlas correctamente.'/>
+
+          <LanguageViceItem
+            name="Homonimia y Paronimia"
+            description='La homonimia ocurre cuando dos palabras tienen la misma escritura (homógrafas)
+            o la misma pronunciación (homófonas), pero significados diferentes. La paronimia ocurre cuando
+            dos palabras tienen una escritura o pronunciación similar, pero no significan lo mismo.'/>
         </div>
       </div>
     </ArticleLayout>
