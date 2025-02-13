@@ -53,6 +53,17 @@ export const LanguageVices = (): JSX.Element => {
             description='La homonimia ocurre cuando dos palabras tienen la misma escritura (homógrafas)
             o la misma pronunciación (homófonas), pero significados diferentes. La paronimia ocurre cuando
             dos palabras tienen una escritura o pronunciación similar, pero no significan lo mismo.'/>
+          
+          <LanguageViceItem
+            name="Cocofonía"
+            description='La cacofonía es un vicio de lenguaje que ocurre cuando en una oración se repiten
+            sonidos o sílabas de forma desagradable o poco armoniosa, haciendo que la frase suene mal o confusa.'/>
+          
+          <LanguageViceItem
+            name="Barbarismos"
+            description='El barbarismo es un error en el uso del idioma que ocurre cuando se pronuncia,
+            escribe o usa mal una palabra. Puede deberse a faltas ortográficas, errores en la pronunciación
+            o el uso incorrecto de extranjerismos.'/>
         </div>
       </div>
     </ArticleLayout>
