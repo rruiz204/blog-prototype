@@ -1,17 +1,14 @@
 import { JSX } from "react";
 import CodingImg from "@assets/imgs/hand-coding.png";
-import { Navbar } from "@components/common/organisms/Navbar";
 import { AuthorList } from "@components/common/organisms/AuthorList";
 import { ArticleList } from "@components/common/organisms/ArticleList";
 
 export const Home = (): JSX.Element => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar></Navbar>
-
-      <div className="flex-1 flex flex-col items-center gap-6 pt-28">
-        <div className="text-center h-fit">
-          <h1 className="text-7xl font-inter-bold mb-2.5">Welcome to Nexuz!</h1>
+    <div className="flex flex-col">
+      <div className="flex-1 flex flex-col items-center gap-6 min-h-screen pt-28">
+        <div className="text-center h-fit px-2">
+          <h1 className="text-4xl md:text-7xl font-inter-bold mb-2.5">Welcome to Nexuz!</h1>
 
           <p className="text-lg text-details-100 font-inter-light">
             Explore the world of technology and development.
