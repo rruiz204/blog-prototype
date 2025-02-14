@@ -3,10 +3,12 @@ import { LanguageVicesData } from "./data/ArticleData";
 import { ArticleLayout } from "@components/layouts/ArticleLayout";
 import { LanguageViceItem } from "@components/common/organisms/LanguageViceItem";
 
+import HomonimiaImg from "@assets/imgs/homonimia.png";
 import DequeismoImg from "@assets/imgs/dequeismos.png";
 import AnacolutosImg from "@assets/imgs/anacolutos.png";
 import VulgarismosImg from "@assets/imgs/vulgarismos.png";
 import AnfibologiaImg from "@assets/imgs/anfibologia.png";
+import ExtranjerismoImg from "@assets/imgs/extranjerismos.png";
 
 export const LanguageVices = (): JSX.Element => {
   useEffect(() => window.scrollTo(0, 0), []);
@@ -52,11 +54,11 @@ export const LanguageVices = (): JSX.Element => {
             informales o con poca educación. Pueden ser fallas gramaticales o palabras ofensivas.'/>
 
           <LanguageViceItem
-            name="Extranjerismos"
+            name="Extranjerismos" example={ExtranjerismoImg}
             description='Son palabras o expresiones tomadas de otro idioma que se usan en una lengua sin traducirlas o adaptarlas correctamente.' />
 
           <LanguageViceItem
-            name="Homonimia y Paronimia"
+            name="Homonimia y Paronimia" example={HomonimiaImg}
             description='La homonimia ocurre cuando dos palabras tienen la misma escritura (homógrafas)
             o la misma pronunciación (homófonas), pero significados diferentes. La paronimia ocurre cuando
             dos palabras tienen una escritura o pronunciación similar, pero no significan lo mismo.'/>
