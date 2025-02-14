@@ -12,6 +12,8 @@ import BarbarismosImg from "@assets/imgs/barbarismos.png";
 import VulgarismosImg from "@assets/imgs/vulgarismos.png";
 import AnfibologiaImg from "@assets/imgs/anfibologia.png";
 import MetaplasmosImg from "@assets/imgs/metaplasmos.png";
+import NeologismosImg from "@assets/imgs/neologismos.png";
+import RedundanciaImg from "@assets/imgs/redundancia.png";
 import ExtranjerismoImg from "@assets/imgs/extranjerismos.png";
 
 export const LanguageVices = (): JSX.Element => {
@@ -92,14 +94,14 @@ export const LanguageVices = (): JSX.Element => {
             forma automática, sin que la persona sea consciente de ello.'/>
 
           <LanguageViceItem
-            name="Neologismos"
+            name="Neologismos" example={NeologismosImg}
             description='Un neologismo es una palabra, expresión o giro lingüístico nuevo que se introduce
             en un idioma. Estos surgen por la necesidad de nombrar cosas, conceptos o fenómenos que antes
             no existían o que no tenían una palabra específica. Los neologismos son una parte natural de
             la evolución del lenguaje.'/>
 
           <LanguageViceItem
-            name="Pleonasmo o Redundancia"
+            name="Pleonasmo o Redundancia" example={RedundanciaImg}
             description='El pleonasmo o redundancia es un vicio de lenguaje que consiste en usar palabras
             innecesarias que repiten o explican de manera innecesaria un concepto que ya está implícito
             en la frase. Aunque en algunos casos puede usarse de forma estilística, en general es
