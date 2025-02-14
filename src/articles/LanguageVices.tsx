@@ -4,8 +4,10 @@ import { ArticleLayout } from "@components/layouts/ArticleLayout";
 import { LanguageViceItem } from "@components/common/organisms/LanguageViceItem";
 
 import HomonimiaImg from "@assets/imgs/homonimia.png";
+import CocofoniaImg from "@assets/imgs/cocofonia.png";
 import DequeismoImg from "@assets/imgs/dequeismos.png";
 import AnacolutosImg from "@assets/imgs/anacolutos.png";
+import BarbarismosImg from "@assets/imgs/barbarismos.png";
 import VulgarismosImg from "@assets/imgs/vulgarismos.png";
 import AnfibologiaImg from "@assets/imgs/anfibologia.png";
 import ExtranjerismoImg from "@assets/imgs/extranjerismos.png";
@@ -64,12 +66,12 @@ export const LanguageVices = (): JSX.Element => {
             dos palabras tienen una escritura o pronunciación similar, pero no significan lo mismo.'/>
 
           <LanguageViceItem
-            name="Cocofonía"
+            name="Cocofonía" example={CocofoniaImg}
             description='La cacofonía es un vicio de lenguaje que ocurre cuando en una oración se repiten
             sonidos o sílabas de forma desagradable o poco armoniosa, haciendo que la frase suene mal o confusa.'/>
 
           <LanguageViceItem
-            name="Barbarismos"
+            name="Barbarismos" example={BarbarismosImg}
             description='El barbarismo es un error en el uso del idioma que ocurre cuando se pronuncia,
             escribe o usa mal una palabra. Puede deberse a faltas ortográficas, errores en la pronunciación
             o el uso incorrecto de extranjerismos.'/>
