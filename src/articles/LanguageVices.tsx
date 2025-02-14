@@ -7,9 +7,11 @@ import HomonimiaImg from "@assets/imgs/homonimia.png";
 import CocofoniaImg from "@assets/imgs/cocofonia.png";
 import DequeismoImg from "@assets/imgs/dequeismos.png";
 import AnacolutosImg from "@assets/imgs/anacolutos.png";
+import MuletillasImg from "@assets/imgs/muletillas.png";
 import BarbarismosImg from "@assets/imgs/barbarismos.png";
 import VulgarismosImg from "@assets/imgs/vulgarismos.png";
 import AnfibologiaImg from "@assets/imgs/anfibologia.png";
+import MetaplasmosImg from "@assets/imgs/metaplasmos.png";
 import ExtranjerismoImg from "@assets/imgs/extranjerismos.png";
 
 export const LanguageVices = (): JSX.Element => {
@@ -77,13 +79,13 @@ export const LanguageVices = (): JSX.Element => {
             o el uso incorrecto de extranjerismos.'/>
 
           <LanguageViceItem
-            name="Metaplasmos"
+            name="Metaplasmos" example={MetaplasmosImg}
             description='Un metaplasmo es una alteración en la forma de una palabra debido a cambios en su
             escritura, pronunciación o estructura. Puede ocurrir por razones estilísticas, por evolución del
             idioma o por errores.'/>
 
           <LanguageViceItem
-            name="Muletillas"
+            name="Muletillas" example={MuletillasImg}
             description='Las muletillas son palabras o expresiones que se usan de manera repetitiva, muchas
             veces sin un propósito concreto, y que no aportan un valor real a la comunicación. Se utilizan
             como pausas o para dar tiempo mientras se piensa qué decir a continuación. A menudo se emplean de
