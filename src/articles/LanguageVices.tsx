@@ -4,6 +4,8 @@ import { ArticleLayout } from "@components/layouts/ArticleLayout";
 import { LanguageViceItem } from "@components/common/organisms/LanguageViceItem";
 
 import DequeismoImg from "@assets/imgs/dequeismos.png";
+import AnacolutosImg from "@assets/imgs/anacolutos.png";
+import VulgarismosImg from "@assets/imgs/vulgarismos.png";
 import AnfibologiaImg from "@assets/imgs/anfibologia.png";
 
 export const LanguageVices = (): JSX.Element => {
@@ -36,13 +38,13 @@ export const LanguageVices = (): JSX.Element => {
             clara y puede entenderse de más de una manera.'/>
 
           <LanguageViceItem
-            name="Anacolutos"
+            name="Anacolutos" example={AnacolutosImg}
             description='El anacoluto es un vicio de lenguaje que ocurre cuando una oración
             comienza con una estructura gramatical, pero luego cambia de forma abrupta, rompiendo
             la concordancia y dejando una parte de la oración sin función clara.'/>
 
           <LanguageViceItem
-            name="Coloquialismos y Vulgarismos"
+            name="Coloquialismos y Vulgarismos" example={VulgarismosImg}
             description='Los coloquialismos son palabras o expresiones informales que se usan en el
             habla cotidiana, pero que no son adecuadas para contextos formales. No son errores gramaticales,
             pero pueden ser demasiado informales en ciertos textos.
