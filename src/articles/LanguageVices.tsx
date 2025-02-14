@@ -3,6 +3,9 @@ import { LanguageVicesData } from "./data/ArticleData";
 import { ArticleLayout } from "@components/layouts/ArticleLayout";
 import { LanguageViceItem } from "@components/common/organisms/LanguageViceItem";
 
+import DequeismoImg from "@assets/imgs/dequeismos.png";
+import AnfibologiaImg from "@assets/imgs/anfibologia.png";
+
 export const LanguageVices = (): JSX.Element => {
   useEffect(() => window.scrollTo(0, 0), []);
 
@@ -19,15 +22,15 @@ export const LanguageVices = (): JSX.Element => {
           impreciso o incluso incomprensible.
         </p>
 
-        <div className="mt-6 flex flex-col gap-6">
+        <div className="mt-6 flex flex-col gap-8">
           <LanguageViceItem
-            name="Dequeísmo"
+            name="Dequeísmo" example={DequeismoImg}
             description='El dequeísmo es un vicio de lenguaje que consiste en agregar la preposición
             "de" antes de la conjunción "que" cuando no es necesario. Es decir, ocurre cuando se
             dice "de que" en situaciones en las que solo debería usarse "que".'/>
 
           <LanguageViceItem
-            name="Anfibología"
+            name="Anfibología" example={AnfibologiaImg}
             description='La anfibología es una ambigüedad en la construcción de una oración,
             lo que puede dar lugar a múltiples interpretaciones. Ocurre cuando una frase no es
             clara y puede entenderse de más de una manera.'/>
